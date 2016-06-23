@@ -6,19 +6,13 @@ namespace MulBoard
     {
         public static void Main()
         {
-            var i = 1;
-            while (i <= 10)
+            for (int row = 0; row < 11; row++)
             {
-                var j = 1;
-                var line = "";
-                while (j <= 10)
+                for (int column = 1; column < 11; column++)
                 {
-                    line += (i*j).ToString() + "\t";
-                    j++;
+                    Console.Write($"{row*column,3}");
                 }
-                Console.WriteLine(line);
-                i++;
-
+                Console.WriteLine("");
             }
         }
     }
