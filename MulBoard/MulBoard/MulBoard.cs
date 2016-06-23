@@ -10,7 +10,7 @@ namespace MulBoard
             {
                 for (int column = 1; column < 11; column++)
                 {
-                    Console.Write($"{row*column,3}");
+                    Console.Write($"{row*column,4}");
                 }
                 Console.WriteLine("");
             }
