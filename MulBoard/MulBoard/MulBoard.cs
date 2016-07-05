@@ -6,9 +6,9 @@ namespace MulBoard
     {
         public static void Main()
         {
-            for (int row = 0; row < 11; row++)
+            for (var row = 0; row < 11; row++)
             {
-                for (int column = 1; column < 11; column++)
+                for (var column = 1; column < 11; column++)
                 {
                     Console.Write($"{row*column,4}");
                 }
