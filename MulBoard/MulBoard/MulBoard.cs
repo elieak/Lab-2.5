@@ -2,6 +2,7 @@
 
 namespace MulBoard
 {
+    //The first line prints zeros.
     public class MulBoard
     {
         public static void Main()
